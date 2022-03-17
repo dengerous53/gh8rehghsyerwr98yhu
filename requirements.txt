@@ -1,0 +1,4 @@
+Telethon==1.24.0
+aiohttp
+pymongo
+pymongo[srv]
