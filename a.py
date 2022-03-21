@@ -22,7 +22,7 @@ Hey There, {}
 🔀 I Can Convert Link To ShortLink
 💬 Send Me Any Message With Links
 🔗 I Will Shorten All Links In It 
-🔂 Convert to <a href="https://shorturllink.in/member/tools/bookmarklet">ShortUrlLink</a> & <a href="https://playdisk.xyz/member/tools/bookmarklet">PlayDisk</a>
+🔂 Convert to <a href="https://du-link.in/member/tools/bookmarklet">ShortUrlLink</a> & <a href="https://playdisk.xyz/member/tools/bookmarklet">PlayDisk</a>
 
 ©️Powered By @A2z_tech
 </b>"""
@@ -32,7 +32,7 @@ start_button = [[Button.url("Join Channel ♥️", "t.me/A2z_tech"), Button.inli
 api_message = """
 <b>Which Shortner Do u Want to Connect To:</b>
 """
-api_button = [[Button.url("Shorturllink.in", "https://shorturllink.in/member/tools/bookmarklet")],
+api_button = [[Button.url("du-link.in", "https://du-link.in/member/tools/bookmarklet")],
               [Button.url("Playdisk.xyz", "https://playdisk.xyz/member/tools/bookmarklet")]]
 
 about_text = """<b>
@@ -49,9 +49,9 @@ about_text = """<b>
 </b>"""
 
 async def get_json(url, api, stype=1):
-    url = f"https://shorturllink.in/api?api={api}&url={url}"
+    url = f"https://du-link.in/api?api={api}&url={url}"
     if stype != 1:
-        url = f"https://playdisk.xyz/api?api={api}&url={url}"
+        url = f"https://du-link.in/api?api={api}&url={url}"
     print(url)
     async with aiohttp.ClientSession() as s:
         for i in range(3):
@@ -84,7 +84,7 @@ async def shortner(links, api, stype):
 # API_ZONE
 
 async def api_checker(api):
-    url = f"https://shorturllink.in/api?api={api}&url=https://www.google.com"
+    url = f"https://du-link.in/api?api={api}&url=https://www.google.com"
     r = await request(url)
     print(r)
     if r["status"] != "error":
