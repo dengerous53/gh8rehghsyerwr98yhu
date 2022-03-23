@@ -1,6 +1,6 @@
 from f import *
 
-api_button = [[Button.url("Shorturllink.in", "https://shorturllink.in/member/tools/bookmarklet")],
+api_button = [[Button.url("du-link.in", "https://shorturllink.in/member/tools/bookmarklet")],
               [Button.url("Playdisk.xyz", "https://playdisk.xyz/member/tools/bookmarklet")]]
 
 about_text = """<b>
@@ -21,7 +21,7 @@ Hey There, {}
 🔀 I Can Convert Link To ShortLink
 💬 Send Me Any Message With Links
 🔗 I Will Shorten All Links In It 
-🔂 Convert to <a href="https://shorturllink.in/member/tools/bookmarklet">ShortUrlLink</a> & <a href="https://playdisk.xyz/member/tools/bookmarklet">PlayDisk</a>
+🔂 Convert to <a href="https://du-link.in/member/tools/bookmarklet">ShortUrlLink</a> & <a href="https://playdisk.xyz/member/tools/bookmarklet">PlayDisk</a>
 
 ©️Powered By @A2z_tech
 </b>"""
