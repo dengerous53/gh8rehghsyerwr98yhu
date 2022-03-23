@@ -1,6 +1,6 @@
 from f import *
 
-api_button = [[Button.url("du-link.in", "https://shorturllink.in/member/tools/bookmarklet")],
+api_button = [[Button.url("du-link.in", "https://du-link.in/member/tools/bookmarklet")],
               [Button.url("Playdisk.xyz", "https://playdisk.xyz/member/tools/bookmarklet")]]
 
 about_text = """<b>
